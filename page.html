@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloso.css">
+    <link rel="stylesheet" href="./Styles/estiloso.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
@@ -41,14 +41,14 @@
                     <input type="text" id="search-bar" placeholder="Procurar">
                 </div>
                 <div class="bar-icon">
-                    <button><img src="./searchSVG.svg" alt="search"></button>
+                    <button><img src="./Images/searchSVG.svg" alt="search"></button>
                 </div>
             </ul>
         </nav>
     </header>
     <main>
         <div class="principal">
-            <div class="side-menu">
+           <div class="side-menu">
                 <div class="list-tittle">
                     <p>Recentes</p>
                 </div>
@@ -81,29 +81,6 @@
                         deleniti! Id, adipisci.
                         Quisquam et accusantium ipsum eaque dolore beatae?</p>
 
-                    <!--<div class="video">
-                            <iframe
-                            width="560" 
-                            height="350" 
-                            src="https://www.youtube.com/embed/fOsB5AoKDJc" 
-                            title="DOOM ETERNAL BABY"   
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen>
-                            </iframe>
-                        </div>-->
-                    <div class="TemperatureDiv">
-                        <input type="number" id="test" placeholder="Escreva os graus para serem convertidos aqui">
-                    <div id="result"></div>
-                    </div>
-                        <div class="video-buttons-container">
-                            <div class="video-buttons">
-                                <button id="toFahrenheit">To Fahrenheit</button>
-                            </div>
-                            <div class="video-buttons">
-                                <button id="toCelsius">To Celsius</button>
-                            </div>
-                        </div>
                     <p>Lorem ipsum dolor sit amet <strong> consectetur adipisicing elit. Beatae placeat alias labore
                             expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id,
                             adipisci.</strong>
@@ -121,10 +98,6 @@
                         deleniti! Id, adipisci.
                         Quisquam et accusantium ipsum eaque dolore beatae?</p>
 
-                    <div id="poze" onmouseenter="pozeOrNot(poze = true)" onmouseleave="pozeOrNot(poze = false)">
-                        <img src="/download.png" alt="Poze">
-                    </div>
-
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
                         expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
                         Quisquam et accusantium ipsum eaque dolore beatae?Lorem ipsum dolor sit amet consectetur
@@ -138,10 +111,26 @@
                         expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
                         Quisquam et accusantium ipsum eaque dolore beatae?</p>
                 </div>
+                <section>
+                    <div class="TemperatureDiv">
+                        <input type="number" id="test" placeholder="Escreva os graus para serem convertidos aqui">
+                    <div id="result"></div>
+                    </div>
+                        <div class="convert-container">
+                            <div class="convert">
+                                <button id="toFahrenheit">To Fahrenheit</button>
+                            </div>
+                            <div class="convert">
+                                <button id="toCelsius">To Celsius</button>
+                            </div>
+                        </div>
+                </section>
+                <section>
+                    <div id="poze" onmouseenter="pozeOrNot(poze = true)" onmouseleave="pozeOrNot(poze = false)">
+                        <img src="./images/download.png" alt="Poze">
+                    </div>
+                </section>
             </article>
-            <section>
-
-            </section>
         </div>
         <div class="relacionados">
             <div class="rel-content"><a href="#">
@@ -162,6 +151,7 @@
                     É real? GIGA CHAD! Quem é, Onde vive? Descubra por que ele se tornou a inspiração da geração Z!</a>
             </div>
 
+           
             <div class="rel-content">
                 <a href="#"><img
                         src="https://a-static.mlcdn.com.br/1500x1500/cd-linkin-park-duplo-hybrid-theory-20th-anniversary-warner-music/alojadediscos/420087/86d3e88a9c820c753ad72a905a8d362a.jpg"
@@ -191,7 +181,7 @@
             <span>All rights reserved</span>
         </div>
     </footer>
-    <script src="js.js"></script>
+    <script src="./js.js"></script>
 </body>
 
 </html>

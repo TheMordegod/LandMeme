@@ -22,9 +22,9 @@ document.getElementById("toCelsius").addEventListener("click",convertToCelcius)
 
 function pozeOrNot(poze)
 {
-    this.innerHTML = document.getElementById("poze").innerHTML = `<img src="/download.png" alt="Poze">`
+    this.innerHTML = document.getElementById("poze").innerHTML = `<img src="./Images/download.png" alt="Poze">`
     if(poze){
-        this.innerHTML = document.getElementById("poze").innerHTML = `<img src="/poze.jfif" alt="Poze">`
+        this.innerHTML = document.getElementById("poze").innerHTML = `<img src="./Images/poze.jfif" alt="Poze">`
     }     
 }
 
