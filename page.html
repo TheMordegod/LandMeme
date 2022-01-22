@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estiloso.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <title>teste</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Site Bala</h1>
+        </div>
+        <nav>
+            <ul class="menu-de-navegacao">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Musics</a>
+                    <ul>
+                        <li><a href="#">Music 001</a></li>
+                        <li><a href="#">Music 002</a></li>
+                        <li><a href="#">Music 003</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Games</a>
+                    <ul>
+                        <li><a href="">Game 001</a></li>
+                        <li><a href="">Game 002</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Movies</a></li>
+
+                <div class="bar">
+                    <label for="search-bar"></label>
+                    <input type="text" id="search-bar" placeholder="Procurar">
+                </div>
+                <div class="bar-icon">
+                    <button><img src="./searchSVG.svg" alt="search"></button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="side-menu">
+                <div class="list-tittle">
+                    <p>Recentes</p>
+                </div>
+                <ul>
+                    <li><a href="#">Nova camiseta do poze!</a></li>
+                    <li><a href="#">Rubinho diz que chegou pela primeira vez em primeiro lugar</a></li>
+                    <li><a href="#">Novo Album do The Artic monkeys possui trolls da neve como cantores!</a></li>
+                    <li><a href="#">Jeff bezos diz que seu foguete não tinha nada de engraçado</a></li>
+                    <li><a href="#">Mulher maravilha esquece onde deixou seu jato invisivel</a></li>
+                </ul>
+            </div>
+            <article>
+                <div class="main-text">
+                    <h2>A história</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+
+                    <h3>Não é o fim</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+
+                    <h3>Nem tudo é o que parece</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Beatae placeat alias laboreexpedita sit ratione animi repudiandae omnis quas! Voluptatum,
+                        deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+
+                    <!--<div class="video">
+                            <iframe
+                            width="560" 
+                            height="350" 
+                            src="https://www.youtube.com/embed/fOsB5AoKDJc" 
+                            title="DOOM ETERNAL BABY"   
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                            </iframe>
+                        </div>-->
+                    <div class="TemperatureDiv">
+                        <input type="number" id="test" placeholder="Escreva os graus para serem convertidos aqui">
+                    <div id="result"></div>
+                    </div>
+                        <div class="video-buttons-container">
+                            <div class="video-buttons">
+                                <button id="toFahrenheit">To Fahrenheit</button>
+                            </div>
+                            <div class="video-buttons">
+                                <button id="toCelsius">To Celsius</button>
+                            </div>
+                        </div>
+                    <p>Lorem ipsum dolor sit amet <strong> consectetur adipisicing elit. Beatae placeat alias labore
+                            expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id,
+                            adipisci.</strong>
+                        Quisquam et accusantium ipsum eaque dolore beatae?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Beatae placeat alias laboreexpedita sit ratione animi repudiandae omnis quas! Voluptatum,
+                        deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p><br>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Beatae placeat alias laboreexpedita sit ratione animi repudiandae omnis quas! Voluptatum,
+                        deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+
+                    <div id="poze" onmouseenter="pozeOrNot(poze = true)" onmouseleave="pozeOrNot(poze = false)">
+                        <img src="/download.png" alt="Poze">
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Beatae placeat alias laboreexpedita sit ratione animi repudiandae omnis quas! Voluptatum,
+                        deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+
+                    <h3>É o final</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat alias labore
+                        expedita sit ratione animi repudiandae omnis quas! Voluptatum, deleniti! Id, adipisci.
+                        Quisquam et accusantium ipsum eaque dolore beatae?</p>
+                </div>
+            </article>
+            <section>
+
+            </section>
+        </div>
+        <div class="relacionados">
+            <div class="rel-content"><a href="#">
+                    <img src="https://www.funzen.net/po/wp-content/uploads/2019/10/Andy-Rubin-e-Essential-mostram-seu-novo-e-estranho-dispositivo.jpg"
+                        alt="Iphone">
+                    Lançado novo Iphone 22K!</a>
+            </div>
+
+            <div class="rel-content"><a href="#">
+                    <img src="https://pbs.twimg.com/profile_images/1289324739794735104/mQoHcZfq_400x400.jpg"
+                        alt="Messi careca">
+                    Mortal Kombat Shaolin Monks terá participação de Messi Careca!!</a>
+            </div>
+
+            <div class="rel-content">
+                <a href="#"><img src="https://i.pinimg.com/736x/b7/72/bb/b772bb80f365ff7fa3d2fb038854ec89.jpg"
+                        alt="Giga CHAD">
+                    É real? GIGA CHAD! Quem é, Onde vive? Descubra por que ele se tornou a inspiração da geração Z!</a>
+            </div>
+
+            <div class="rel-content">
+                <a href="#"><img
+                        src="https://a-static.mlcdn.com.br/1500x1500/cd-linkin-park-duplo-hybrid-theory-20th-anniversary-warner-music/alojadediscos/420087/86d3e88a9c820c753ad72a905a8d362a.jpg"
+                        alt="Linkin Park">
+                    Linkin Park lança remasterização de seu primeiro album!</a>
+            </div>
+
+            <div class="rel-content">
+                <a href="#"><img
+                        src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg"
+                        alt="Brasil da massa">
+                    Brasil da a volta por cima do covid e dos altos preços, dolar chega a incrivel marca de 1 dolar e 30
+                    centavos!</a>
+            </div>
+
+            <div class="rel-content">
+                <a href="https://www.youtube.com/watch?v=sFZjqVnWBhc"><img
+                        src="https://thumbs.gfycat.com/AnnualAgedAiredale.webp" alt="Robot Rock">
+                    Robot Rock!</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <small>Fiz o site para praticar meus conhecimentos em html, css!</small><br>
+            <p>rodapé 2k21</p>
+            <span>All rights reserved</span>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
